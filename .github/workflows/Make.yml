@@ -96,8 +96,8 @@ jobs:
       run: |
         PATH=~/bin:$PATH
         cd workspace
-        repo sync -j1 -f --force-sync
-        ls -al
+        repo sync -c -f -j2 --force-sync --no-clone-bundle --no-tags
+        
         
     - name: Fix cannot locate product
       if: steps.var.outputs.use_repair_manifest == 'true' && steps.var.outputs.fix_product == 'true'
