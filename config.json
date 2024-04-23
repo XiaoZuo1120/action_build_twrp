@@ -1,6 +1,6 @@
 {
-  "twrp_url": "git://github.com/SHRP/manifest.git",
-  "twrp_branch": "v3_9.0",
+  "twrp_url": "git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git",
+  "twrp_branch": "twrp-8.1",
   "git_username": "xiaozuo1120",
   "git_email": "2583188733@qq.com",
   "use_own_dt": true,
